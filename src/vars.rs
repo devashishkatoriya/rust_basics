@@ -12,4 +12,14 @@ pub fn run() {
     name2 = "Deva22";
 
     println!("My name is {}", name2);
+
+    // Define constant
+    const ROLL: i32 = 21;
+
+    println!("Roll is {}", ROLL);
+
+    // Assigning multiple vars
+    let (my1, my2) = ("Test1", 23);
+    
+    println!("my1 is {}, my2 is {}", my1, my2);
 }
