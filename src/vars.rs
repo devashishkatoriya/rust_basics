@@ -9,8 +9,9 @@ pub fn run() {
     println!("My name is {}", name);
 
     let mut name2 = "Deva";
-    name2 = "Deva22";
+    println!("My name is {}", name2);
 
+    name2 = "Deva22";
     println!("My name is {}", name2);
 
     // Define constant
@@ -20,6 +21,6 @@ pub fn run() {
 
     // Assigning multiple vars
     let (my1, my2) = ("Test1", 23);
-    
+
     println!("my1 is {}, my2 is {}", my1, my2);
 }
