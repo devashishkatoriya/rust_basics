@@ -4,7 +4,9 @@
 //mod vars;
 //mod strings;
 //mod tuples;
-mod arrays;
+//mod arrays;
+//mod vectors;
+mod conditionals;
 
 fn main() {
 
@@ -23,7 +25,13 @@ fn main() {
     //println!("calling tuples.rs");
     //tuples::run();
 
-    println!("calling arrays.rs");
-    arrays::run();
+    //println!("calling arrays.rs");
+    //arrays::run();
+
+    // println!("calling vectors.rs");
+    // vectors::run();
+
+    println!("calling conditionals.rs");
+    conditionals::run();
 }
 
