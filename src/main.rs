@@ -7,7 +7,8 @@
 // mod arrays;
 // mod vectors;
 // mod conditionals;
-mod loops;
+// mod loops;
+mod functions;
 
 fn main() {
 
@@ -35,7 +36,10 @@ fn main() {
     // println!("calling conditionals.rs");
     // conditionals::run();
 
-    println!("calling loops.rs");
-    loops::run();
+    // println!("calling loops.rs");
+    // loops::run();
+
+    println!("calling functions.rs");
+    functions::run();
 }
 
