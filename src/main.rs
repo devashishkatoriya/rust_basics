@@ -9,7 +9,8 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod pointers;
+// mod pointers;
+mod structs;
 
 fn main() {
 
@@ -43,7 +44,10 @@ fn main() {
     // println!("calling functions.rs");
     // functions::run();
 
-    println!("calling pointers.rs");
-    pointers::run();
+    // println!("calling pointers.rs");
+    // pointers::run();
+
+    println!("calling structs.rs");
+    structs::run();
 }
 
