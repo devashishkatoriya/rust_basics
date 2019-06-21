@@ -10,7 +10,8 @@
 // mod loops;
 // mod functions;
 // mod pointers;
-mod structs;
+// mod structs;
+mod files;
 
 fn main() {
 
@@ -47,7 +48,10 @@ fn main() {
     // println!("calling pointers.rs");
     // pointers::run();
 
-    println!("calling structs.rs");
-    structs::run();
+    // println!("calling structs.rs");
+    // structs::run();
+
+    println!("calling files.rs");
+    files::run();
 }
 
